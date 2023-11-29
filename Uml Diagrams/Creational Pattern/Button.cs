@@ -8,14 +8,10 @@ namespace Uml_Diagrams.Creational_Pattern
 {
     public interface IButton
     {
-        public void render()
-        {
-            Console.WriteLine("render");
-        }
+        public void render();
 
-        public void onClick()
-        {
-            Console.WriteLine("Click");
-        }
+
+        public void onClick();
+        
     }
 }
